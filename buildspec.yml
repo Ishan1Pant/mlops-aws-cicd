@@ -6,7 +6,7 @@ phases:
             - echo "Build block"
             - ls
             - echo "Running tests to check if "Ishan" present in index.html file"
-            - grep "ishan's" index.html
+            - grep "Ishan's" index.html
     post_build:
         commands:
             - echo "Post build phase"
